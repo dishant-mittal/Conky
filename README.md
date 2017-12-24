@@ -12,3 +12,9 @@ instead of wlan0 , the name might be something different. For example in the cur
 =======
 Nice script for monitoring system
 
+More commands:
+Simple linux commands can be issued like this:
+${font sans-serif:normal:size=8}${color 000000}${execi 10 cat /home/dishant/TODO.txt}
+
+Python scripts can be executed like this:
+${font sans-serif:normal:size=10}${color 000000}${execi 10 python /home/dishant/Projects/conky/cal.py}
