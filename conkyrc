@@ -21,7 +21,6 @@ uppercase no
 cpu_avg_samples 2
 override_utf8_locale no
 
-
 TEXT
 ${font sans-serif:bold:size=8}${color 2F4F4F}SYSTEM $stippled_hr
 ${font sans-serif:normal:size=8}${color 000000}Host: $alignr $nodename
@@ -72,6 +71,3 @@ ${font sans-serif:normal:size=8}${color 000000}Download Speed: $alignr ${downspe
 ${downspeedgraph wlo1 20,0 -t}
 ${font sans-serif:normal:size=8}${color 000000}Upload Speed: $alignr ${upspeed wlo1}/s
 ${upspeedgraph wlo1 20,0 -t}
-
-${font sans-serif:bold:size=8}${color 2F4F4F}TO DO $stippled_hr
-${font sans-serif:normal:size=8}${color 000000}${execpi 30 cat /home/dishant/TODO.txt}
